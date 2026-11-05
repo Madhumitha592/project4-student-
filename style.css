@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 30%;
+    padding: 20px;
+}
+
+.container {
+    background:white;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid palevioletred 2px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color:plum;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+.count {
+    text-align: right;
+    color:darkmagenta;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.container p{
+    display: block;
+    color:orangered;
+    font-size: 13px;
+    margin-bottom: 15px;
+    min-height: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background:palevioletred;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:disabled {
+    background: greenyellow;
+    color: black;
+    cursor: not-allowed;
+}
+
+button:enabled:hover {
+    background:lightgoldenrodyellow;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid pink;
+}

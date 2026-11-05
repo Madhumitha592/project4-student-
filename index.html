@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registation Form</h1>
+      
+          <form id="studentForm">
+
+            <!-- Name -->
+            <label>Name</label>
+            <input type="text" id="name"
+                   placeholder="Enter your name">
+            <p id="nameError"></p>
+
+            <!-- Email -->
+            <label>Email</label>
+            <input type="text" id="email"
+                   placeholder="Enter your email">
+            <p id="emailError"></p>
+
+            <!-- Password -->
+            <label>Password</label>
+            <input type="password" id="password"
+                   placeholder="Enter password">
+            <p id="passwordError"></p>
+
+            <!-- Bio -->
+            <label>Bio</label>
+            <textarea id="bio"
+                      maxlength="200"
+                      placeholder="Write about yourself..."></textarea>
+
+            <div class="count">
+                <span id="count">0 / 200 characters</span>
+            </div>
+
+            <p id="bioError"></p>
+
+            <!-- Submit -->
+            <button type="submit" id="btn" disabled>
+                Submit
+            </button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
